@@ -11,19 +11,19 @@ Important to note that if you want to use a locally routable domain, in this cas
 
 <h3>Step 2 - Setup a local MTA with Smart Host</h3>
 On the host run the following commands;
+<br>
 <code>
-    apt-get install exim4
-  </code>
+    apt-get install exim4<br>
+  </code><br>
   <code>
     git clone https://github.com/freshdemo/smarthost /root
-  </code>
+  </code><br>
   <code>
     cp update-exim4.conf.conf /etc/exim4
-  </code>
+  </code><br>
   <code>
     update-exim4.conf (this is a command)
-  </code>
+  </code><br>
   <code>
     service exim4 reload OR /etc/init.d/exim4 restart (depending on your distro)
-  </code>
-</code>
+  </code><br>

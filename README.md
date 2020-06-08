@@ -10,6 +10,9 @@ Important to note that if you want to use a locally routable domain, in this cas
                  </code>
 
 <h3>Step 2 - Setup a local MTA with Smart Host</h3>
+
+This step is required to forward mail to external domains to the SMTP server in the mailanddns infrastructure. You will likely have to edit the file and change the IP from 10.1.4.4 to the IP of your mail server. Also take note that the port being used in this configuration is 2225, which coincides with the documented way of running mailanddns.
+
 On the host run the following commands;
 <br>
 <code>

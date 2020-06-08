@@ -5,7 +5,7 @@ To facilitate this a local MTA will need to be setup on your attacking/red host,
 <h3>Step 1 - update /etc/resolv.conf</h3>
 Important to note that if you want to use a locally routable domain, in this case example.com, you will also need to add the following to the top line of /etc/resolv.conf. You can use mailanddns for all DNS queries as anything not local to the name server are sent to 1.1.1.1.
 
-<code>
+<br><code>
   nameserver IP.address.of.mailanddns
                  </code>
 

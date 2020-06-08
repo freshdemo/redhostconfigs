@@ -1,0 +1,29 @@
+From: Billing Support <billing@rogers.ca>
+To: Stephen <phishme@example.com>
+Subject: Outstanding Balance
+Content-Type: text/html
+
+<html>
+<body>
+Hello,<br>
+
+<p>
+It has come to our attention you have an outstanding balance of $387.17. Failure to resolve this issue by the end of the m
+onth will leave us no recourse but to send your file to our collection agency. This could affect your credit going forward
+.
+</p>
+<p>
+For details of the charges and the best ways to contact us please <a href="http://www.mizug-mahir.co.il">follow these inst
+ructions</a>.
+</p>
+
+<p>
+Thank you and have a great day.
+</p>
+
+<p>
+Rogers Billing Support
+</p>
+
+<img src="http://www.eyeonmobility.com/wp-content/uploads/2013/07/logo_rogers_small.jpg">
+</html>

@@ -1,4 +1,4 @@
-Often you will want to send a phishing or malicious email from an attacking/red host through your phishy infrastructure (using the repo (freshdemo/mailanddns).
+Often you will want to send a phishing or malicious email from an attacking/red host through your phishy infrastructure using the repo <a href="https://github.com/freshdemo/mailanddns" target="_blank">https://github.com/freshdemo/mailanddns</a>.
 
 To facilitate this a local MTA will need to be setup on your attacking/red host, such as Kali Linux. The local MTA will accept mail on TCP port 25 and then send it directly to your smarthost, being freshdemo/mailanddns.
 
@@ -30,3 +30,12 @@ On the host run the following commands;
   <code>
     service exim4 reload OR /etc/init.d/exim4 restart (depending on your distro)
   </code><br>
+
+<h3>Step 3 - Send a Test Email</h3>
+
+There are a couple of txt files in this repository that each contain a full HTML email you can send from the command line with the following. In order for this to work you must configure the local MTA as described above (or similarly), and have the SMTP/IMAP/DNS server <a href="https://github.com/freshdemo/mailanddns" target="_blank">https://github.com/freshdemo/mailanddns</a>.
+
+<code>
+  sendmail -t < phishing-credential-harvest.txt
+                                               </code>    
+                                           
